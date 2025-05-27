@@ -1,0 +1,190 @@
+* { 
+  margin:0px;
+  padding:0px;
+  font-family: 'Poppins', 'sans-serif';
+}
+body{
+  min-height: 100vh;
+  background-image: linear-gradient(#E6E6FA,#B8E7FA);
+  box-sizing: border-box;
+}
+header{
+  display:flex;
+  justify-content: space-between;
+  background-color: white;
+  align-items: center;
+  padding: 24px 50px;
+ 
+ 
+}
+#header-content{
+  font-weight: 1000;
+  font-size: 28px;
+
+}
+span{
+  color: #FFA500;
+}
+.btn-download-resume{
+   background-image: linear-gradient(#FFA500,#FFD447);
+   padding: 17px 24px;
+   border-radius: 10px;
+   cursor: pointer;
+   background-color: #ffffff;
+   font-size: 20px;
+   font-weight: bold;
+   border:0px;
+   box-shadow: 0 2px 2px 0 rgba(0,0,0,0.3) ;
+  
+}
+
+#banner{
+  background-color: #E6EDF9;
+  padding: 40px 60px; 
+  margin: 100px auto;
+  width: 87.5%;
+  border-radius: 16px;
+}
+#banner-image{
+    width: 240px;
+    height:240px;
+    margin: 0px auto 32px auto;
+}
+#banner-content h1{
+  font-size: 48px;
+  text-align: center;
+  font-weight: 900px;
+  margin: 0px;
+}
+#banner-content p{
+  font-size: 16px;
+  text-align: center;
+  font-weight: normal;
+  margin: 15px 20% 32px;
+}
+.btn-let-connect{
+   background-image: linear-gradient(#FFA500,#FFD447);
+   padding: 17px 24px;
+   border-radius: 10px;
+   cursor: pointer;
+   background-color: #ffffff;
+   font-size: 20px;
+   font-weight: bold;
+   border:0px;
+   display: block;
+   margin: 0px auto;
+   box-shadow: 0 2px 2px 0 rgba(0,0,0,0.3) ;
+}
+#development-content h2, #inspiration-content h2, #target-content h2{
+  text-align: center;
+  font-size: 32px;
+  font-weight: 900px;
+}
+#development-content p, #inspiration-content p, #target-content p{
+  font-size: 16px;
+  text-align: center;
+  font-weight: normal;
+  margin: 15px 25% 48px;
+}
+#development-banner{
+  display:flex;
+  justify-content: space-between;
+  gap:15%;
+  flex-wrap: wrap;
+  align-items: center;
+  padding:48px;
+  background-color: #E6EDF9;
+  border-radius: 16px;
+  width:87.5%;
+  margin:0px auto 100px auto;
+}
+#development-banner-content{
+  width:50%;
+}
+#development-banner-content h3{
+ font-size: 24px;
+ font-weight: bold;
+}
+#development-banner-content p{
+ font-size: 16px;
+ font-weight: normal;
+}
+.btn-let-discuss{
+   background-image: linear-gradient(#FFA500,#FFD447);
+   padding: 17px 24px;
+   border-radius: 10px;
+   cursor: pointer;
+   background-color: #ffffff;
+   font-size: 20px;
+   font-weight: bold;
+   border:0px;
+   box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.3) ;
+   margin-top: 10px;
+}
+#development-image{
+   margin-right:auto;
+}
+.video-content{
+ border: 1px solid grey; 
+			border-radius: 10px; 
+			display: block;
+			margin: 0 auto;     		
+}
+#inspiration-video{
+  padding:32px;
+  border: 0.1px solid #0D132130;
+  border-radius: 10px;
+  width:50%;
+  margin:0px auto 100px auto;
+}
+#target-card{
+  display:flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap:auto;
+  width:87.5%;
+  margin: auto;
+}
+.card-content{
+  background-image: linear-gradient(#E6EDF9, #9DE5FF);
+  border-radius: 16px;
+  padding:40px;
+  margin-bottom: 100px;
+  width:20%;
+  box-shadow: 2px 8px 8px 2px rgba(0,0,0,0.3);
+}
+.card-content h3{
+font-size: 24px;
+font-weight: 900px;
+}
+a:visited, a:active{
+font-size: 16px;
+font-weight: bold;
+color: black;
+}
+a:hover, a:link{
+font-size: 16px;
+font-weight: bold;
+color: green;
+}
+footer{
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding:32px 150px;
+  background-color: white;
+  font-family: 'Azeret Mono', 'monospace';
+  font-size: 20px;
+  align-items: center;
+  min-width: 1000px;
+ 
+}
+
+ 
+
+
+/* Button Hover */
+.btn-download-resume:hover, .btn-let-connect:hover, .btn-let-discuss:hover{
+  background-image: linear-gradient(rgb(152, 219, 152),rgb(114, 114, 212));
+  color:white;
+}

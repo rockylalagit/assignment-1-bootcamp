@@ -1,0 +1,25 @@
+/* laptop device */
+@media screen and (max-width:1200px) {
+  /* *{
+    margin: 0px;
+    padding: 0px;
+  } */
+
+
+}
+
+/* tablet device */
+@media screen and (max-width:1024px) {
+  /* header{
+    width: 118.5%;
+  } */
+ 
+
+}
+
+/* mobile device */
+@media screen and (max-width:640px) {
+   /* header{
+    width: 166.5%;
+  } */
+}
